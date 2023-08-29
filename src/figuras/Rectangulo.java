@@ -2,10 +2,15 @@ package figuras;
 
 public class Rectangulo {
 
-	private Integer base, altura;
+	private Double base, altura;
 
-	public Rectangulo(Integer base, Integer altura) {
+	public Rectangulo(Double base, Double altura) {
 		this.base = base;
 		this.altura = altura;
 	}
+
+	public Double getPerimetro() {
+		return this.altura * 2 + this.base * 2;
+	}
+
 }
