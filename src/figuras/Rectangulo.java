@@ -2,10 +2,14 @@ package figuras;
 
 public class Rectangulo {
 
-	private Integer base, altura;
+	private Double base, altura;
 
-	public Rectangulo(Integer base, Integer altura) {
+	public Rectangulo(Double base, Double altura) {
 		this.base = base;
 		this.altura = altura;
+	}
+
+	public String toString() {
+		return "Rectangulo [base=" + base + ", altura=" + altura + "]";
 	}
 }
